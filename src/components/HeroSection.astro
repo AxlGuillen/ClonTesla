@@ -1,0 +1,18 @@
+---
+import Section from '../components/Section.astro'
+---
+
+<Section 
+	title="Disfrute de tesla" 
+	subtitle="Porgrame una prueba de conduccion hoy mismo."
+	color = 'white'>
+		<div slot="footer">
+		<a 
+			href="#" 
+			class="text-white border-white bg-white/5 backdrop-blur-sm border-[3px] rounded font-normal text-sm px-12 py-2
+				hover:bg-white hover:text-black transition-colors">
+			Prueba de conducción
+		</a>
+		</div>
+	<video slot="background" autoplay muted loop src="/video.webm"></video>
+</Section>

@@ -1,0 +1,24 @@
+---
+import Section from '../components/Section.astro'
+---
+
+<Section 
+	title="Energía solar y Powerwall"
+    subtitle="Totalmente eléctrico"
+	color = 'black'
+    id="powerwall">
+		<div slot="footer" class="flex mx-auto gap-x-6">
+				<a 
+                    href="#" 
+                    class="border-[3px] border-black bg-black border-opacity-0 bg-opacity-70 text-sm rounded font-medium text-white px-12 py-2 inline-block transition-colors
+                    hover:bg-zinc-800 hover:border-zinc-800">
+                    Mas información
+				</a>
+		</div>
+		
+		<img
+		slot="background"
+        src="/powerwall.avif" 
+        alt="Powerwall"
+        class="h-full w-full object-cover object-center">
+</Section>
